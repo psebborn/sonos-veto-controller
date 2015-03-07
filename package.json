@@ -1,0 +1,15 @@
+{
+  "name": "sonos-veto",
+  "version": "0.0.0",
+  "description": "A Node-base Sonos integration that lets office members veto a song and skip to the next track",
+  "main": "index-tessel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Sebborn",
+  "license": "ISC",
+  "dependencies": {
+    "sonos-discovery": "git://github.com/jishi/node-sonos-discovery",
+    "onoff": "~0.3.2"
+  }
+}
